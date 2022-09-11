@@ -2,27 +2,6 @@ The Project: Typing Speed & Accuracy Test
 By: Kendra Reynolds
 Technologies Used: HTML, CSS, and JavaScript
 
-This project is not hosted online, but can be accessed locally
-after downloading the files included in the zip file.
-
-Accessing the project: Open the folder JSProject_TimedTypeTest. In addition to the 
-README file there should be three files: index.html, style.css, and script.js
-Double clicking on index.html will open the project in the computer's default web browser. 
-The project was tested only on Google Chrome and Safari web browser so for reliable 
-performance either of these two web browsers are recommended.
-
-Running the project: Once the project is opened on the browser, you'll see three test
-options: 1 min test, 2 min test, 3min test. After selecting a choice, click 'Start' at the
-bottom of the page. Once start is clicked it turns into a countdown timer and new 
-text is displayed in the black box with the white box available as the typing area.
-The goal is to type what is displayed in the black box as fast and accurate as 
-possible. The text displayed in the black box is a collection of random facts I found 
-on the internet and only one fact is displayed at a time. As you type you will
-see the white text in the black box change color. If you get the character key 
-correct it's turns blue-green, but if it's wrong it turns yellow and it's underlined.
-Once the countdown timer reaches zero an alert pops up to let you know and then 
-the result are shown on the page. The option to try again is also available 
-beneath the results. 
 
 My experience working on the project: My project relays heavily on manipulating
 the DOM with JavaScript and using event handlers. One of the main goals I wanted 

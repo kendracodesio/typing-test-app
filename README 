@@ -1,0 +1,66 @@
+The Project: Typing Speed & Accuracy Test
+By: Kendra Reynolds
+Technologies Used: HTML, CSS, and JavaScript
+
+This project is not hosted online, but can be accessed locally
+after downloading the files included in the zip file.
+
+Accessing the project: Open the folder JSProject_TimedTypeTest. In addition to the 
+README file there should be three files: index.html, style.css, and script.js
+Double clicking on index.html will open the project in the computer's default web browser. 
+The project was tested only on Google Chrome and Safari web browser so for reliable 
+performance either of these two web browsers are recommended.
+
+Running the project: Once the project is opened on the browser, you'll see three test
+options: 1 min test, 2 min test, 3min test. After selecting a choice, click 'Start' at the
+bottom of the page. Once start is clicked it turns into a countdown timer and new 
+text is displayed in the black box with the white box available as the typing area.
+The goal is to type what is displayed in the black box as fast and accurate as 
+possible. The text displayed in the black box is a collection of random facts I found 
+on the internet and only one fact is displayed at a time. As you type you will
+see the white text in the black box change color. If you get the character key 
+correct it's turns blue-green, but if it's wrong it turns yellow and it's underlined.
+Once the countdown timer reaches zero an alert pops up to let you know and then 
+the result are shown on the page. The option to try again is also available 
+beneath the results. 
+
+My experience working on the project: My project relays heavily on manipulating
+the DOM with JavaScript and using event handlers. One of the main goals I wanted 
+to accomplish on this project was making it interactive so that as a user types 
+they can follow along with the text display to see if they make a mistake.
+I did this by manipulating the DOM and creating a span element for every character
+in the display output and comparing it to the user's keystroke(made possible with 
+an event handler). When the character was correct or incorrect I was able to 
+manipulate the CSS and change the class of that span element. While doing this, I also 
+get the correct key and incorrect key count which was important for showing accuracy
+results at the end.
+I wanted each fact to show up separately on the display, but after making each 
+character a span element, I found that it made that aspect of the project more difficult.
+Eventually, I decided to add line breaks before each fact was added to the
+display and updated the scroll settings to bring only the newly added fact into view. 
+During the type test all facts are generated at random and then pushed to an new array so that 
+the new array can be used to make sure the next generated fact has not already been displayed.
+I initially made the project as a one minute test but later decided to add the options
+of changing the timer with radio buttons. The radio buttons were created on using
+HTML, but the value is accessed using JavaScript. 
+
+Acknowledgements:
+The fun facts I used for my project were obtained from the internet sources
+listed below:
+https://www.thefactsite.com/100-strange-but-true-facts/
+https://www.cosmopolitan.com/uk/worklife/a33367076/fun-facts-random/
+https://parade.com/966564/parade/fun-facts/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
